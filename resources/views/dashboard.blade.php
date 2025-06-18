@@ -22,7 +22,6 @@
             </div>
         </div>
 
-        <!-- Subscription Info -->
         <div class="grid md:grid-cols-2 gap-6 mb-8">
             <div class="bg-gray-50 rounded-lg p-6">
                 <h2 class="text-lg font-semibold mb-4">Subscription Details</h2>
@@ -68,7 +67,6 @@
             </div>
         </div>
 
-        <!-- Upcoming Reminders -->
         <div class="mb-8">
             <h2 class="text-xl font-semibold mb-4">Upcoming GST Reminders</h2>
             @if($subscription->gstReminders->count() > 0)
@@ -118,7 +116,6 @@
             @endif
         </div>
 
-        <!-- Renewal Alert -->
         @if($subscription->isExpiringSoon())
             <div class="bg-orange-50 border border-orange-200 rounded-lg p-6 mb-6">
                 <div class="flex items-center">
@@ -137,7 +134,6 @@
             </div>
         @endif
 
-        <!-- Action Buttons -->
         <div class="flex space-x-4">
             <a href="{{ route('home') }}" 
                class="bg-gray-600 text-white px-6 py-2 rounded hover:bg-gray-700 transition duration-200">

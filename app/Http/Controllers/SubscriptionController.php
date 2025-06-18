@@ -11,7 +11,7 @@ class SubscriptionController extends Controller
 {
     public function index()
     {
-        return view('landing');
+        return view('home');
     }
 
     public function subscribe(Request $request)
@@ -40,7 +40,6 @@ class SubscriptionController extends Controller
             ]
         );
 
-        // Generate reminders for current month
         $subscription->generateMonthlyReminders();
 
         return redirect()->route('subscription.success', $subscription->id);

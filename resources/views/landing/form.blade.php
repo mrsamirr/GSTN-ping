@@ -1,10 +1,4 @@
-@extends('layouts.app')
-
-@section('title', 'GST Reminder Service - Never Miss Filing Deadlines')
-
-@section('content')
-<div class="max-w-4xl mx-auto">
-    <!-- Hero Section -->
+<section class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
         <h1 class="text-4xl font-bold text-gray-800 mb-4">
             Never Miss Another GST Filing Deadline
@@ -36,7 +30,6 @@
         </div>
     </div>
 
-    <!-- Subscription Form -->
     <div class="bg-white rounded-lg shadow-lg p-8 max-w-md mx-auto">
         <h2 class="text-2xl font-bold text-center mb-6">Start Your GST Reminders</h2>
         
@@ -143,7 +136,6 @@
         </form>
     </div>
 
-    <!-- Features Section -->
     <div class="mt-16 grid md:grid-cols-3 gap-8">
         <div class="text-center p-6">
             <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
@@ -169,11 +161,10 @@
             <p class="text-gray-600">Receive alerts via SMS, WhatsApp, and email for maximum reliability.</p>
         </div>
     </div>
-</div>
+</section>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Auto-format GSTIN input
     const gstinInput = document.querySelector('input[name="gstin"]');
     if (gstinInput) {
         gstinInput.addEventListener('input', function(e) {
@@ -181,7 +172,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Phone number validation
     const phoneInput = document.querySelector('input[name="phone"]');
     if (phoneInput) {
         phoneInput.addEventListener('input', function(e) {
@@ -190,4 +180,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
-@endsection
+
