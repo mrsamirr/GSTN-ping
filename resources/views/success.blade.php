@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.subscription')
 
 @section('title', 'Subscription Activated Successfully')
 
