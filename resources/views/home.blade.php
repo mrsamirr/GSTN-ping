@@ -8,7 +8,7 @@
     @include('landing.form')
     @include('landing.features')
     @include('landing.use-cases')
+    @include('landing.comparison')
     @include('landing.faq')
-    {{-- @include('landing.testimonials') --}}
 
 @endsection
