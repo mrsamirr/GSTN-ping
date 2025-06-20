@@ -41,7 +41,7 @@
                     <div class="flex justify-between">
                         <span class="text-gray-600">Valid Until:</span>
                         <span class="font-semibold 
-                            @if($subscription->isExpiringSoon()) text-orange-600 @else text-green-600 @endif">
+                            @if($subscription->isExpiringSoon()) text-orange-600 @else @endif">
                             {{ $subscription->expires_at->format('d M Y') }}
                         </span>
                     </div>

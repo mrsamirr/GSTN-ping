@@ -10,7 +10,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 
-class SendRenewalReminderJob implements ShouldQueue
+class SendRenewalReminder implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -26,14 +26,12 @@ class SendRenewalReminderJob implements ShouldQueue
         $expiryDate = $this->subscription->expires_at->format('d-m-Y');
         $message = "Your GST Reminder subscription expires on {$expiryDate}. Renew now for ₹99/month to continue receiving reminders.";
         
-        // Send email
         $notificationService->sendEmail(
             $this->subscription->email,
             'GST Reminder Subscription Renewal',
             $message
         );
         
-        // Send WhatsApp
         $notificationService->sendWhatsApp($this->subscription->phone, $message);
     }
 }

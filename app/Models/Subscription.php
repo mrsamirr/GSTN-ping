@@ -18,7 +18,7 @@ class Subscription extends Model
         'expires_at' => 'datetime',
     ];
 
-    public function gstReminders()
+    public function gstReminders() //one-to-many relationship.
     {
         return $this->hasMany(GstReminder::class);
     }

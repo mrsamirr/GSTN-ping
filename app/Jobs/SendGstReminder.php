@@ -33,13 +33,10 @@ class SendGstReminderJob implements ShouldQueue
 
         $message = $this->buildMessage();
         
-        // Send SMS
         $notificationService->sendSms($subscription->phone, $message);
         
-        // Send WhatsApp
         $notificationService->sendWhatsApp($subscription->phone, $message);
         
-        // Update reminder status
         if ($this->type === 'two_day') {
             $this->reminder->update(['two_day_sent' => true]);
         } else {
