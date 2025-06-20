@@ -9,47 +9,40 @@
     <script>
          lucide.createIcons();
     </script> 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        .backdrop-blur-sm {
-            backdrop-filter: blur(4px);
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: { primary: '#2563eb' },
+            fontFamily: { sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+            animation: {
+                blob: 'blob 8s infinite',
+                scroll: 'scroll 40s linear infinite',
+            },
+            keyframes: {
+                blob: {
+                '0%,100%': { transform: 'translate(0,0) scale(1)' },
+                '33%':     { transform: 'translate(30px,-20px) scale(1.1)' },
+                '66%':     { transform: 'translate(-20px,20px) scale(0.9)' }
+                },
+                scroll: {
+                from: { transform: 'translateX(0)' },
+                to:   { transform: 'translateX(-100%)' }
+                }
+            }
+            }
         }
-        
-        .bg-gradient-custom {
-            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
-        }
-        
-        .btn-primary {
-            background-color: #06b6d4;
-            transition: all 0.2s ease-in-out;
-        }
-        
-        .btn-primary:hover {
-            background-color: #0891b2;
-            transform: translateY(-1px);
-        }
-        
-        .btn-secondary {
-            background-color: #3b82f6;
-            transition: all 0.2s ease-in-out;
-        }
-        
-        .btn-secondary:hover {
-            background-color: #2563eb;
-        }
-        
-        .feature-item {
-            transition: all 0.3s ease-in-out;
-        }
-        
-        .feature-item:hover {
-            transform: translateX(4px);
-            background-color: rgba(255, 255, 255, 0.15);
-        }
-    </style>
-
+        };
+    </script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col font-sans antialiased bg-gray-50 text-gray-800">
+   @include('urgency')
    @include('header')
     
   {{-- <main>

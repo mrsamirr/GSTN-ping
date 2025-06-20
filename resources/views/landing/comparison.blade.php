@@ -1,10 +1,10 @@
-   <section class="mt-32">
+   <section class="mt-32 bg-primary/5">
             <div class="text-center mb-16">
                 <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                    <span class="text-orange-500">All-in-One</span> vs Integration Hell
+                    <span class="text-blue-500">All-in-One</span> vs Integration Hell
                 </h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    See how base44 stacks up against other AI app-building platforms
+                    See how TryPluton stacks up against other AI app-building platforms
                 </p>
             </div>
 
@@ -94,7 +94,7 @@
                         <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                             <i class="fas fa-check text-green-600"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-orange-500">BASE44</h3>
+                        <h3 class="text-2xl font-bold text-blue-500">TryPluton</h3>
                     </div>
 
                     <div class="space-y-6">

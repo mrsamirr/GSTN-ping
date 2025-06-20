@@ -1,112 +1,116 @@
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-            <div class="space-y-8">
-                <div class="space-y-6">
-                    <h1 class="text-5xl lg:text-6xl font-bold text-black leading-tight">
-                        10x your <span class="text-cyan-500 text-nowrap">LinkedIn inbound.</span>
-                        <br />
-                        One platform, zero chaos
-                    </h1>
+ <section class="relative isolate overflow-hidden bg-gradient-to-br from-blue-50 to-purple-100 py-24 sm:py-32">
+    <div class="absolute -top-20 -left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+    <div class="absolute -bottom-24 -right-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
 
-                    <p class="text-xl text-black leading-relaxed">
-                        For <span class="text-yellow-300 font-medium">creators</span>,
-                        <span class="text-green-300 font-medium">ghostwriters</span>, and
-                        <span class="text-purple-600 font-medium">teams</span> who want to write high-performing posts, engage
-                        daily, and grow without switching tools or risking their account.
-                    </p>
-                </div>
-
-                <div class="space-y-4">
-                    <button class="btn-primary text-gray-900 font-semibold px-8 py-3 text-lg rounded-md">
-                        Get started for free
-                    </button>
-
-                    <div class="flex items-center space-x-6">
-                       <div class="flex -space-x-2 overflow-hidden">
-                        <img class="inline-block size-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                        <img class="inline-block size-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                        <img class="inline-block size-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
-                        <img class="inline-block size-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                    </div>
-                        <span class="text-slate-400 font-medium">1200+ professionals use</span>
-                    </div>
-
-                    <div class="flex items-center space-x-6 text-slate-400">
-                        <div class="flex items-center space-x-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big-icon lucide-circle-check-big"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
-                            <span>7-day free trial</span>
-                        </div>
-                        <div class="flex items-center space-x-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-icon lucide-shield"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
-                            <span>Safe to use</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="space-y-6">
-                <div class="flex space-x-2">
-                    <span class="bg-gray-800 text-white px-4 py-2 font-medium rounded-full">
-                        Content Creation
-                    </span>
-                    <span class="border border-white/30 text-black px-4 py-2 rounded-full">
-                        Engagement
-                    </span>
-                    <span class="border border-white/30 text-black px-4 py-2 rounded-full">
-                        Analytics
-                    </span>
-                </div>
-
-                <div class="space-y-4">
-                    <div class="feature-item flex items-center justify-between bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                        <div class="flex items-center space-x-3">
-                            <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-image-icon lucide-file-image"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><circle cx="10" cy="12" r="2"/><path d="m20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22"/></svg>
-                            </div>
-                            <span class="text-black font-medium">On-brand Post</span>
-                        </div>
-                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <polyline points="20,6 9,17 4,12"></polyline>
-                        </svg>
-                    </div>
-
-                    <div class="feature-item flex items-center justify-between bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                        <div class="flex items-center space-x-3">
-                            <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
-                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-icon lucide-mic"><path d="M12 19v3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><rect x="9" y="2" width="6" height="13" rx="3"/></svg>
-                            </div>
-                            <span class="text-black font-medium">Voice to Post</span>
-                        </div>
-                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <polyline points="20,6 9,17 4,12"></polyline>
-                        </svg>
-                    </div>
-
-                    <div class="feature-item flex items-center justify-between bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                        <div class="flex items-center space-x-3">
-                            <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text-icon lucide-file-text"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
-                            </div>
-                            <span class="text-black font-medium">Content Library</span>
-                        </div>
-                       <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <polyline points="20,6 9,17 4,12"></polyline>
-                        </svg>
-                    </div>
-
-                    <div class="flex items-center justify-between bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 opacity-60">
-                        <div class="flex items-center space-x-3">
-                            <div class="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blocks-icon lucide-blocks"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
-                            </div>
-                            <span class="text-black font-medium">Content Repurpose</span>  
-                        </div>
-                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <polyline points="20,6 9,17 4,12"></polyline>
-                        </svg>
-                        <div class="w-5 h-5 rounded-full border-2 border-white/30"></div>
-                    </div>
-                </div>
-            </div>
+    <div class="max-w-7xl mx-auto px-6 lg:flex lg:items-center lg:gap-20 relative">
+      <div class="flex-1" x-data="{tab:'CA'}">
+        <div class="inline-flex bg-white rounded-full shadow mb-6">
+          <template x-for="label in ['CA','Startup Founder','Tax Consultant']" :key="label">
+            <button @click="tab=label"
+                    :class="[
+                      'px-4 py-2 text-sm font-medium rounded-full transition',
+                      tab===label ? 'bg-primary text-white' : 'text-gray-700'
+                    ]">
+              <span x-text="label"></span>
+            </button>
+          </template>
         </div>
-    </section>
+
+        <template x-if="tab==='CA'">
+          <div>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-6">
+              Automate GST filings.<br />Save hours every month.
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-700 mb-8">
+              Chartered accountants use TryPluton to schedule, file &amp; track returns for dozens of clients—error-free.
+            </p>
+          </div>
+        </template>
+
+        <template x-if="tab==='Startup Founder'">
+          <div>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-6">
+              Focus on product.<br />Leave compliance to us.
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-700 mb-8">
+              Founders automate tax reminders, generate invoices &amp; stay audit-ready—without a finance team.
+            </p>
+          </div>
+        </template>
+
+        <template x-if="tab==='Tax Consultant'">
+          <div>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-6">
+              Handle&nbsp;5× more clients.<br />No extra staff.
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-700 mb-8">
+              Consultants grow their practice by letting TryPluton chase documents, payments &amp; due-dates automatically.
+            </p>
+          </div>
+        </template>
+
+        <a href="#notify"
+           class="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-primary hover:bg-primary/90 text-white font-semibold text-lg shadow-lg transition">
+          Get started for free
+        </a>
+      </div>
+
+      <div class="flex-1 max-w-md mx-auto lg:mx-0 mt-12 lg:mt-0">
+        <form id="hero-form" action="#" class="bg-white rounded-2xl shadow-xl p-8">
+          <h3 class="text-xl font-semibold mb-4">Start your 7-day free trial</h3>
+
+          <div class="space-y-4">
+            <input type="text"  placeholder="Name"          required class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
+            <input type="email" placeholder="Work email"    required class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
+            <input type="tel"   placeholder="Phone number"          class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
+            <input type="text"  placeholder="GSTN number"           class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
+            <input type="text"  placeholder="Company name"          class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
+
+            <div>
+              <p class="text-sm font-medium text-gray-700 mb-2">Send reminders before deadline:</p>
+              <div class="flex flex-wrap gap-4">
+                <label class="inline-flex items-center gap-2 text-sm text-gray-600">
+                  <input type="checkbox" value="10" class="rounded border-gray-300 text-primary focus:ring-primary" />
+                  10&nbsp;days before
+                </label>
+                <label class="inline-flex items-center gap-2 text-sm text-gray-600">
+                  <input type="checkbox" value="5" class="rounded border-gray-300 text-primary focus:ring-primary" />
+                  5&nbsp;days before
+                </label>
+                <label class="inline-flex items-center gap-2 text-sm text-gray-600">
+                  <input type="checkbox" value="1" class="rounded border-gray-300 text-primary focus:ring-primary" />
+                  1&nbsp;day before
+                </label>
+              </div>
+            </div>
+
+            <button type="submit"
+                    class="w-full px-6 py-3 rounded-lg bg-primary hover:bg-primary/90 text-white font-semibold">
+              Get started for free
+            </button>
+          </div>
+
+          <div class="flex items-center gap-3 mt-6">
+            <div class="flex -space-x-3">
+              <img src="https://randomuser.me/api/portraits/men/2.jpg"    alt="user1" class="w-8 h-8 rounded-full border-2 border-white">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="user2" class="w-8 h-8 rounded-full border-2 border-white">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="user3" class="w-8 h-8 rounded-full border-2 border-white">
+              <img src="https://randomuser.me/api/portraits/men/75.jpg"   alt="user4" class="w-8 h-8 rounded-full border-2 border-white">
+            </div>
+            <span class="text-sm text-gray-500">1200+ professionals use</span>
+          </div>
+
+          <div class="flex items-center gap-6 mt-4 text-xs text-gray-500">
+            <div class="flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.567-3 3.5S10.343 15 12 15s3-1.567 3-3.5S13.657 8 12 8z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17v5m9-1.5a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              7-day free trial
+            </div>
+            <div class="flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6l-8 4v6l8 4 8-4V10l-8-4z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12l8-4M12 12v10"/></svg>
+              Safe to use
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>

@@ -6,10 +6,10 @@
                 <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
                   <div class="w-4 h-4 bg-white rounded-sm transform rotate-45"></div>
                 </div>
-                <span class="text-xl font-bold text-gray-900">Supergrow</span>
+                <span class="text-xl font-bold text-gray-900">TryPluton</span>
               </div>
 
-              <p class="text-gray-600 leading-relaxed">Build Your Personal Brand on LinkedIn with Supergrow.</p>
+              <p class="text-gray-600 leading-relaxed">Build Your Personal Brand on LinkedIn with TryPluton.</p>
 
               <div class="flex items-center space-x-4">
                 <a
