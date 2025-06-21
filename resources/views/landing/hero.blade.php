@@ -58,7 +58,6 @@
       <div class="flex-1 max-w-md mx-auto lg:mx-0 mt-12 lg:mt-0">
         <form id="subscriptionForm" action="{{ route('subscribe') }}" method="POST" class="space-y-4">
              @csrf
-                <!-- GSTIN Field -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">
                         GSTIN <span class="text-red-500">*</span>
@@ -76,7 +75,6 @@
                     <p class="text-xs text-gray-500 mt-1">15-digit GST Identification Number</p>
                 </div>
 
-                <!-- Phone Number Field -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">
                         Phone Number <span class="text-red-500">*</span>
@@ -93,7 +91,6 @@
                     <div class="invalid-feedback" id="phone-error"></div>
                 </div>
 
-                <!-- Email Field -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">
                         Email Address <span class="text-red-500">*</span>
@@ -109,7 +106,6 @@
                     <div class="invalid-feedback" id="email-error"></div>
                 </div>
 
-                <!-- Reminder Settings -->
                 <div class="grid grid-cols-2 gap-4">
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-2">
@@ -135,7 +131,6 @@
                     </div>
                 </div>
 
-                <!-- Pricing Section -->
                 <div class="border-t pt-4">
                     <div class="text-center mb-4">
                         <span class="text-2xl font-bold text-green-600">₹99</span>
