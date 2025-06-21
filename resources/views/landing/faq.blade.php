@@ -14,31 +14,31 @@
                 @php
                     $faqs = [
                         [
-                            'question' => 'What is TryPluton?',
-                            'answer' => 'TryPluton is an AI-powered application development platform that allows you to build custom software applications using natural language. Instead of writing code, you simply describe what you want your app to do, and our AI generates the application for you. It\'s designed to make app development accessible to everyone, regardless of technical background.',
+                            'question' => 'What is GSTPing?',
+                            'answer' => 'GSTPing is an AI-powered application development platform that allows you to build custom software applications using natural language. Instead of writing code, you simply describe what you want your app to do, and our AI generates the application for you. It\'s designed to make app development accessible to everyone, regardless of technical background.',
                         ],
                         [
-                            'question' => 'Do I need coding experience to use TryPluton?',
-                            'answer' => 'No, you don\'t need any coding experience to use TryPluton. Our platform is designed specifically for non-technical users. You simply describe your app requirements in plain English, and our AI handles all the technical implementation. However, if you do have coding experience, you can also customize and extend your applications further.',
+                            'question' => 'Do I need coding experience to use GSTPing?',
+                            'answer' => 'No, you don\'t need any coding experience to use GSTPing. Our platform is designed specifically for non-technical users. You simply describe your app requirements in plain English, and our AI handles all the technical implementation. However, if you do have coding experience, you can also customize and extend your applications further.',
                         ],
                         [
-                            'question' => 'What types of applications can I build with TryPluton?',
-                            'answer' => 'You can build a wide variety of applications including customer portals, internal business tools, productivity apps, data management systems, workflow automation tools, and MVP prototypes. TryPluton supports web applications, mobile-responsive interfaces, and can integrate with various third-party services and databases.',
+                            'question' => 'What types of applications can I build with GSTPing?',
+                            'answer' => 'You can build a wide variety of applications including customer portals, internal business tools, productivity apps, data management systems, workflow automation tools, and MVP prototypes. GSTPing supports web applications, mobile-responsive interfaces, and can integrate with various third-party services and databases.',
                         ],
                         [
-                            'question' => 'What kind of integrations does TryPluton support?',
-                            'answer' => 'TryPluton supports integrations with popular services including Google Workspace, Microsoft 365, Slack, Zapier, Stripe for payments, various databases (MySQL, PostgreSQL, MongoDB), REST APIs, and many other third-party services. We\'re constantly adding new integrations based on user demand.',
+                            'question' => 'What kind of integrations does GSTPing support?',
+                            'answer' => 'GSTPing supports integrations with popular services including Google Workspace, Microsoft 365, Slack, Zapier, Stripe for payments, various databases (MySQL, PostgreSQL, MongoDB), REST APIs, and many other third-party services. We\'re constantly adding new integrations based on user demand.',
                         ],
                         [
-                            'question' => 'How are TryPluton applications deployed?',
-                            'answer' => 'TryPluton applications are automatically deployed to secure cloud infrastructure with just one click. We handle all the server management, scaling, and maintenance for you. Your apps are hosted on enterprise-grade infrastructure with 99.9% uptime guarantee, SSL certificates, and automatic backups.',
+                            'question' => 'How are GSTPing applications deployed?',
+                            'answer' => 'GSTPing applications are automatically deployed to secure cloud infrastructure with just one click. We handle all the server management, scaling, and maintenance for you. Your apps are hosted on enterprise-grade infrastructure with 99.9% uptime guarantee, SSL certificates, and automatic backups.',
                         ],
                         [
                             'question' => 'How does the natural language development process work?',
                             'answer' => 'Simply describe your app idea in conversational English - for example, \'I want a customer feedback system where users can submit reviews and I can respond to them.\' Our AI analyzes your requirements, asks clarifying questions if needed, and then generates a fully functional application. You can iterate and refine your app by providing additional instructions.',
                         ],
                         [
-                            'question' => 'Is my data secure with TryPluton?',
+                            'question' => 'Is my data secure with GSTPing?',
                             'answer' => 'Yes, security is our top priority. All data is encrypted in transit and at rest using industry-standard encryption. We\'re SOC 2 compliant and follow strict data protection protocols. Your applications run in isolated environments, and we never access your business data. You maintain full ownership and control of your data at all times.',
                         ],
                     ];

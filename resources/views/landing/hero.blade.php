@@ -22,7 +22,7 @@
               Automate GST filings.<br />Save hours every month.
             </h1>
             <p class="text-lg sm:text-xl text-gray-700 mb-8">
-              Chartered accountants use TryPluton to schedule, file &amp; track returns for dozens of clients—error-free.
+              Chartered accountants use GstPing to schedule, file &amp; track returns for dozens of clients—error-free.
             </p>
           </div>
         </template>
@@ -44,7 +44,7 @@
               Handle&nbsp;5× more clients.<br />No extra staff.
             </h1>
             <p class="text-lg sm:text-xl text-gray-700 mb-8">
-              Consultants grow their practice by letting TryPluton chase documents, payments &amp; due-dates automatically.
+              Consultants grow their practice by letting GstPing chase documents, payments &amp; due-dates automatically.
             </p>
           </div>
         </template>
@@ -56,61 +56,124 @@
       </div>
 
       <div class="flex-1 max-w-md mx-auto lg:mx-0 mt-12 lg:mt-0">
-        <form id="hero-form" action="#" class="bg-white rounded-2xl shadow-xl p-8">
-          <h3 class="text-xl font-semibold mb-4">Start your 7-day free trial</h3>
+        <form id="subscriptionForm" action="{{ route('subscribe') }}" method="POST" class="space-y-4">
+             @csrf
+                <!-- GSTIN Field -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">
+                        GSTIN <span class="text-red-500">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        name="gstin" 
+                        value="{{ old('gstin') }}"
+                        placeholder="22AAAAA0000A1Z5"
+                        maxlength="15"
+                        class="form-control w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 uppercase"
+                        required
+                    >
+                    <div class="invalid-feedback" id="gstin-error"></div>
+                    <p class="text-xs text-gray-500 mt-1">15-digit GST Identification Number</p>
+                </div>
 
-          <div class="space-y-4">
-            <input type="text"  placeholder="Name"          required class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
-            <input type="email" placeholder="Work email"    required class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
-            <input type="tel"   placeholder="Phone number"          class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
-            <input type="text"  placeholder="GSTN number"           class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
-            <input type="text"  placeholder="Company name"          class="w-full rounded-lg border-gray-300 focus:border-primary focus:ring-primary" />
+                <!-- Phone Number Field -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">
+                        Phone Number <span class="text-red-500">*</span>
+                    </label>
+                    <input 
+                        type="tel" 
+                        id="phone"
+                        name="phone" 
+                        placeholder="9876543210"
+                        maxlength="10"
+                        class="form-control w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required
+                    >
+                    <div class="invalid-feedback" id="phone-error"></div>
+                </div>
 
-            <div>
-              <p class="text-sm font-medium text-gray-700 mb-2">Send reminders before deadline:</p>
-              <div class="flex flex-wrap gap-4">
-                <label class="inline-flex items-center gap-2 text-sm text-gray-600">
-                  <input type="checkbox" value="10" class="rounded border-gray-300 text-primary focus:ring-primary" />
-                  10&nbsp;days before
-                </label>
-                <label class="inline-flex items-center gap-2 text-sm text-gray-600">
-                  <input type="checkbox" value="5" class="rounded border-gray-300 text-primary focus:ring-primary" />
-                  5&nbsp;days before
-                </label>
-                <label class="inline-flex items-center gap-2 text-sm text-gray-600">
-                  <input type="checkbox" value="1" class="rounded border-gray-300 text-primary focus:ring-primary" />
-                  1&nbsp;day before
-                </label>
-              </div>
-            </div>
+                <!-- Email Field -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">
+                        Email Address <span class="text-red-500">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email"
+                        name="email" 
+                        placeholder="your@email.com"
+                        class="form-control w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required
+                    >
+                    <div class="invalid-feedback" id="email-error"></div>
+                </div>
 
-            <button type="submit"
-                    class="w-full px-6 py-3 rounded-lg bg-primary hover:bg-primary/90 text-white font-semibold">
-              Get started for free
-            </button>
-          </div>
+                <!-- Reminder Settings -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                            Days Before
+                        </label>
+                        <select name="reminder_days" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="2" selected>2 Days</option>
+                            <option value="3">3 Days</option>
+                            <option value="5">5 Days</option>
+                            <option value="7">7 Days</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                            Hours Before
+                        </label>
+                        <select name="reminder_hours" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="2" selected>2 Hours</option>
+                            <option value="4">4 Hours</option>
+                            <option value="6">6 Hours</option>
+                            <option value="12">12 Hours</option>
+                        </select>
+                    </div>
+                </div>
 
-          <div class="flex items-center gap-3 mt-6">
-            <div class="flex -space-x-3">
-              <img src="https://randomuser.me/api/portraits/men/2.jpg"    alt="user1" class="w-8 h-8 rounded-full border-2 border-white">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="user2" class="w-8 h-8 rounded-full border-2 border-white">
-              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="user3" class="w-8 h-8 rounded-full border-2 border-white">
-              <img src="https://randomuser.me/api/portraits/men/75.jpg"   alt="user4" class="w-8 h-8 rounded-full border-2 border-white">
-            </div>
-            <span class="text-sm text-gray-500">1200+ professionals use</span>
-          </div>
-
-          <div class="flex items-center gap-6 mt-4 text-xs text-gray-500">
-            <div class="flex items-center gap-1">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.567-3 3.5S10.343 15 12 15s3-1.567 3-3.5S13.657 8 12 8z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17v5m9-1.5a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              7-day free trial
-            </div>
-            <div class="flex items-center gap-1">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6l-8 4v6l8 4 8-4V10l-8-4z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12l8-4M12 12v10"/></svg>
-              Safe to use
-            </div>
-          </div>
-        </form>
+                <!-- Pricing Section -->
+                <div class="border-t pt-4">
+                    <div class="text-center mb-4">
+                        <span class="text-2xl font-bold text-green-600">₹99</span>
+                        <span class="text-gray-500">/month</span>
+                    </div>
+                    
+                    <button 
+                        type="submit" 
+                        id="submitBtn"
+                        class="w-full bg-blue-600 text-white py-3 px-4 rounded-md hover:bg-blue-700 transition duration-200 font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                        <i class="fas fa-credit-card mr-2"></i>
+                        Activate for ₹99 / month
+                    </button>
+                    
+                    <p class="text-xs text-gray-500 text-center mt-2">
+                        Cancel anytime. No hidden charges.
+                    </p>
+                </div>
+            </form>
       </div>
     </div>
   </section>
+
+   <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const gstinInput = document.querySelector('input[name="gstin"]');
+    if (gstinInput) {
+        gstinInput.addEventListener('input', function(e) {
+            this.value = this.value.toUpperCase();
+        });
+    }
+    
+    const phoneInput = document.querySelector('input[name="phone"]');
+    if (phoneInput) {
+        phoneInput.addEventListener('input', function(e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+    }
+});
+</script>

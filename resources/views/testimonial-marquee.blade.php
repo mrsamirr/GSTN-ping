@@ -84,7 +84,7 @@
                             'id' => '4',
                             'name' => 'Harel Asaf',
                             'username' => '@harelasaf',
-                            'content' => 'TryPluton is hands down the best AI tool ever! The speed and accuracy of code generation is unmatched.',
+                            'content' => 'GSTPing is hands down the best AI tool ever! The speed and accuracy of code generation is unmatched.',
                             'avatar' => 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'product-hunt'
                         ],
@@ -92,7 +92,7 @@
                             'id' => '5',
                             'name' => 'Mauricio Rubio',
                             'username' => '@mauriciorubio',
-                            'content' => 'The all-in-one, batteries included value proposition from TryPluton is exactly what developers need today.',
+                            'content' => 'The all-in-one, batteries included value proposition from GSTPing is exactly what developers need today.',
                             'avatar' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'twitter'
                         ]
@@ -129,7 +129,7 @@
                             'id' => '4',
                             'name' => 'Harel Asaf',
                             'username' => '@harelasaf',
-                            'content' => 'TryPluton is hands down the best AI tool ever! The speed and accuracy of code generation is unmatched.',
+                            'content' => 'GSTPing is hands down the best AI tool ever! The speed and accuracy of code generation is unmatched.',
                             'avatar' => 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'product-hunt'
                         ],
@@ -137,7 +137,7 @@
                             'id' => '5',
                             'name' => 'Mauricio Rubio',
                             'username' => '@mauriciorubio',
-                            'content' => 'The all-in-one, batteries included value proposition from TryPluton is exactly what developers need today.',
+                            'content' => 'The all-in-one, batteries included value proposition from GSTPing is exactly what developers need today.',
                             'avatar' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'twitter'
                         ]
@@ -154,7 +154,7 @@
                             'id' => '6',
                             'name' => 'Best of Philosophy',
                             'username' => '@BotPhilosophyQ',
-                            'content' => 'TryPluton looks perfect for founders who want to build fast without compromising on quality. Impressive work!',
+                            'content' => 'GSTPing looks perfect for founders who want to build fast without compromising on quality. Impressive work!',
                             'avatar' => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'twitter'
                         ],
@@ -178,7 +178,7 @@
                             'id' => '9',
                             'name' => 'Felipe Teixeira',
                             'username' => '@felipeteixeira',
-                            'content' => 'I have already developed three systems with the TryPluton app, and the results have been phenomenal every time.',
+                            'content' => 'I have already developed three systems with the GSTPing app, and the results have been phenomenal every time.',
                             'avatar' => 'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'product-hunt'
                         ],
@@ -199,7 +199,7 @@
                             'id' => '6',
                             'name' => 'Best of Philosophy',
                             'username' => '@BotPhilosophyQ',
-                            'content' => 'TryPluton looks perfect for founders who want to build fast without compromising on quality. Impressive work!',
+                            'content' => 'GSTPing looks perfect for founders who want to build fast without compromising on quality. Impressive work!',
                             'avatar' => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'twitter'
                         ],
@@ -223,7 +223,7 @@
                             'id' => '9',
                             'name' => 'Felipe Teixeira',
                             'username' => '@felipeteixeira',
-                            'content' => 'I have already developed three systems with the TryPluton app, and the results have been phenomenal every time.',
+                            'content' => 'I have already developed three systems with the GSTPing app, and the results have been phenomenal every time.',
                             'avatar' => 'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&h=100&fit=crop&crop=face',
                             'platform' => 'product-hunt'
                         ],
